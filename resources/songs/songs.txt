@@ -1,0 +1,6 @@
+{"name":"1min","artist":"unknown","streams":15,"path":"resources\\songs\\1min.wav"}
+{"name":"Rockstar","artist":"Post Malone","streams":10,"path":"resources\\songs\\rockstar-post-malone.wav"}
+{"name":"Popstar","artist":"Drake","streams":10,"path":"resources\\songs\\popstar.wav"}
+{"name":"Rockstar","artist":"DaBaby","streams":9,"path":"resources\\songs\\rockstar-dababy.wav"}
+{"name":"5sec","artist":"unknown","streams":7,"path":"resources\\songs\\5sec.wav"}
+{"name":"Blinding Lights","artist":"The Weekend","streams":5,"path":"resources/songs/blinding_lights.wav"}

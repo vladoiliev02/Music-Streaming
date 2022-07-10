@@ -1,0 +1,8 @@
+[MESSAGE] 2022-04-12T19:20:46.834389300
+User: vlado2
+ Response: {"status":"READY_TO_STREAM","message":"Music channel for vlado2 connected"}
+-------------------
+[MESSAGE] 2022-04-12T19:20:46.837379100
+User: vlado2
+ Response: {"status":"OK","message":"Streaming started successfully"}
+-------------------

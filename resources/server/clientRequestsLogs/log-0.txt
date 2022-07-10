@@ -1,0 +1,72 @@
+[MESSAGE] 2022-04-12T19:20:15.011631500
+User: vlado
+ Response: {"status":"SUCCESSFULLY_LOGGED_IN","message":"vlado"}
+-------------------
+[MESSAGE] 2022-04-12T19:20:19.825207800
+User: vlado
+ Response: {"status":"OK","message":"1: 1min by unknown -\u003e 15 streams.\r\n2: Rockstar by Post Malone -\u003e 10 streams.\r\n3: Popstar by Drake -\u003e 10 streams.\r\n4: Rockstar by DaBaby -\u003e 9 streams.\r\n5: 5sec by unknown -\u003e 7 streams.\r\n6: Blinding Lights by The Weekend -\u003e 5 streams."}
+-------------------
+[MESSAGE] 2022-04-12T19:20:26.380515100
+User: vlado
+ Response: {"status":"OK","message":"Now playing: Rockstar by Post Malone.","songFormat":{"encoding":"PCM_SIGNED","sampleRate":48000.0,"sampleSizeInBits":16,"channels":2,"frameSize":4,"frameRate":48000.0,"bigEndian":false}}
+-------------------
+[MESSAGE] 2022-04-12T19:20:26.478813700
+User: null
+ Response: {"status":"READY_TO_STREAM","message":"Music channel for vlado connected"}
+-------------------
+[MESSAGE] 2022-04-12T19:20:26.490824600
+User: null
+ Response: {"status":"OK","message":"Streaming started successfully"}
+-------------------
+[MESSAGE] 2022-04-12T19:20:42.370032700
+User: vlado2
+ Response: {"status":"SUCCESSFULLY_LOGGED_IN","message":"vlado2"}
+-------------------
+[MESSAGE] 2022-04-12T19:20:46.758501600
+User: vlado2
+ Response: {"status":"OK","message":"Now playing: 1min by unknown.","songFormat":{"encoding":"PCM_SIGNED","sampleRate":48000.0,"sampleSizeInBits":16,"channels":2,"frameSize":4,"frameRate":48000.0,"bigEndian":false}}
+-------------------
+[MESSAGE] 2022-04-12T19:20:46.822425600
+User: null
+ Response: {"status":"READY_TO_STREAM","message":"Music channel for vlado2 connected"}
+-------------------
+[MESSAGE] 2022-04-12T19:20:46.825411600
+User: null
+ Response: {"status":"OK","message":"Streaming started successfully"}
+-------------------
+[ERROR] 2022-04-12T19:20:52.992002
+User: vlado2
+Error message: Unknown request: exit
+Stack trace: [com.vlado.spotify.parsers.RequestParser.parse(RequestParser.java:79), com.vlado.spotify.executors.RequestExecutor.execute(RequestExecutor.java:34), com.vlado.spotify.server.SpotifyServer.readClientRequest(SpotifyServer.java:178), com.vlado.spotify.server.SpotifyServer.handleKey(SpotifyServer.java:125), com.vlado.spotify.server.SpotifyServer.startServer(SpotifyServer.java:81), com.vlado.spotify.server.SpotifyServer.main(SpotifyServer.java:229)]
+-------------------
+[ERROR] 2022-04-12T19:20:55.424824500
+User: vlado2
+Error message: Unknown request: close
+Stack trace: [com.vlado.spotify.parsers.RequestParser.parse(RequestParser.java:79), com.vlado.spotify.executors.RequestExecutor.execute(RequestExecutor.java:34), com.vlado.spotify.server.SpotifyServer.readClientRequest(SpotifyServer.java:178), com.vlado.spotify.server.SpotifyServer.handleKey(SpotifyServer.java:125), com.vlado.spotify.server.SpotifyServer.startServer(SpotifyServer.java:81), com.vlado.spotify.server.SpotifyServer.main(SpotifyServer.java:229)]
+-------------------
+[ERROR] 2022-04-12T19:20:57.576625500
+User: vlado2
+Error message: Unknown request: quit
+Stack trace: [com.vlado.spotify.parsers.RequestParser.parse(RequestParser.java:79), com.vlado.spotify.executors.RequestExecutor.execute(RequestExecutor.java:34), com.vlado.spotify.server.SpotifyServer.readClientRequest(SpotifyServer.java:178), com.vlado.spotify.server.SpotifyServer.handleKey(SpotifyServer.java:125), com.vlado.spotify.server.SpotifyServer.startServer(SpotifyServer.java:81), com.vlado.spotify.server.SpotifyServer.main(SpotifyServer.java:229)]
+-------------------
+[MESSAGE] 2022-04-12T19:21:00.446510700
+User: null
+ Response: {"status":"LOGGED_OUT","message":"Successfully logged out of: vlado2."}
+-------------------
+[MESSAGE] 2022-04-12T19:21:08.209831400
+User: null
+ Response: {"status":"LOGGED_OUT","message":"Successfully logged out of: vlado."}
+-------------------
+[ERROR] 2022-04-12T19:21:10.761150200
+User: null
+Error message: You are not logged in. Please log in to use this feature.
+Stack trace: [com.vlado.spotify.request.Request.checkLoggedIn(Request.java:13), com.vlado.spotify.request.TopNSongsRequest.execute(TopNSongsRequest.java:32), com.vlado.spotify.executors.RequestExecutor.execute(RequestExecutor.java:35), com.vlado.spotify.server.SpotifyServer.readClientRequest(SpotifyServer.java:178), com.vlado.spotify.server.SpotifyServer.handleKey(SpotifyServer.java:125), com.vlado.spotify.server.SpotifyServer.startServer(SpotifyServer.java:81), com.vlado.spotify.server.SpotifyServer.main(SpotifyServer.java:229)]
+-------------------
+[MESSAGE] 2022-04-12T19:21:18.050264300
+User: vlado
+ Response: {"status":"SUCCESSFULLY_LOGGED_IN","message":"vlado"}
+-------------------
+[MESSAGE] 2022-04-12T19:21:20.540428800
+User: vlado
+ Response: {"status":"OK","message":"1: 1min by unknown -\u003e 16 streams.\r\n2: Rockstar by Post Malone -\u003e 11 streams.\r\n3: Popstar by Drake -\u003e 10 streams.\r\n4: Rockstar by DaBaby -\u003e 9 streams.\r\n5: 5sec by unknown -\u003e 7 streams."}
+-------------------
