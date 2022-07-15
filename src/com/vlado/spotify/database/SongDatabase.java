@@ -225,7 +225,7 @@ public class SongDatabase {
             bufferedWriter.write(String.format("\"%s\" \"%s\"%n", song.name(), song.artist()));
         } catch (IOException e) {
             throw new SongNotAddedToPlaylistException(String.format(
-                    "Error while adding song to: %s. Please try again.", playlistName));
+                    "Error while adding song to: %s. Please try again.", playlistName), e);
         }
 
         playlists.get(playlistName).add(song);
@@ -249,7 +249,7 @@ public class SongDatabase {
                 addSong(song);
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            throw new UncheckedIOException(e);
         }
     }
 
@@ -332,7 +332,7 @@ public class SongDatabase {
             }
         } catch (IOException e) {
             throw new PlayLIstCreationException(String.format(
-                    "Error while creating the playlist: %s. Please try again.", playlistName));
+                    "Error while creating the playlist: %s. Please try again.", playlistName), e);
         }
     }
 
